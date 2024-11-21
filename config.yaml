@@ -1,0 +1,55 @@
+projectName: hashing algorithms, comparison and when to use which hashing algorithm
+jsonFilePath: ./input.json
+baseUrl: https://guptadeepak.com
+portalHeading: Hashing Algorithms Portal
+portalDescription: >-
+  Explore various hashing algorithms, their comparisons, and guidance on when to
+  use each algorithm effectively.
+portalTitle: Understanding Hashing Algorithms
+searchPlaceholder: Search hashing algorithms...
+useAlphabetsCategory: true
+homeLink: https://guptadeepak.com/
+logoLink: https://guptadeepak.com/
+ctaText: Get Started
+aboutLink: https://guptadeepak.com/about
+productsLink: https://guptadeepak.com/products
+logoImgUrl: https://guptadeepak.com/logo.png
+ctaLink: https://guptadeepak.com/get-started
+copyrightText: © 2023 Gupta Deepak. All rights reserved.
+faviconUrl: https://guptadeepak.com/favicon.ico
+googleTagManagerId: ''
+pagesTitle:
+  prefix: ''
+  suffix: ''
+categoryPagesTitle:
+  prefix: ''
+  suffix: ''
+templateRoot:
+  - ./templates
+  - ./templates
+homeTemplatePath: ./templates/homePageTemplate.ejs
+categoryTemplatePath: ./templates/categoryTemplate.ejs
+pageTemplatePath: ./templates/pagesTemplate.ejs
+outputDir: ./output
+socialLinks:
+  - platform: Twitter
+    url: https://twitter.com/guptadeepak
+  - platform: LinkedIn
+    url: https://linkedin.com/in/guptadeepak
+theme:
+  primaryColor: '#007BFF'
+  secondaryColor: '#6C757D'
+  backgroundColor: '#FFFFFF'
+  textColor: '#212529'
+  accentColor: '#FFC107'
+fonts:
+  - family: Arial
+    weights:
+      - 400
+      - 500
+      - 600
+  - family: Roboto
+    weights:
+      - 500
+      - 600
+      - 700

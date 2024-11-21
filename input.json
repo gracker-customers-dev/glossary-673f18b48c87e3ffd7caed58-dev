@@ -1,0 +1,42 @@
+[
+  {
+    "categoryName": "default",
+    "categorySlug": "",
+    "pages": [
+      {
+        "pageTitle": "Data-dependent memory-hard functions (dMHF)",
+        "metaDescription": "Functions that require a significant amount of memory and whose performance depends on the specific input data.",
+        "slug": "/data-dependent-memory-hard-functions-dmhf/",
+        "pageHeading": "Data-dependent memory-hard functions (dMHF)",
+        "pageDescription": "Functions that require a significant amount of memory and whose performance depends on the specific input data.",
+        "pageContentBlocks": [
+          "## Description",
+          "Data-dependent memory-hard functions (dMHF) are cryptographic primitives designed to require substantial memory resources for computation, making them resistant to certain types of attacks, such as those using specialized hardware like ASICs or FPGAs. Unlike traditional hashing algorithms, which can be computed quickly using minimal memory, dMHFs ensure that the time and memory required to compute the function depend on the input data itself. This characteristic enhances security by making it more difficult for an attacker to perform brute-force attacks or pre-compute tables for known inputs. dMHFs are particularly useful in contexts where the goal is to deter large-scale parallel attacks, such as password hashing or proof-of-work systems in blockchain technologies. The design of these functions often involves intricate memory access patterns, which can significantly affect the efficiency and resource requirements based on the specific data being processed.",
+          "## Examples",
+          "- Argon2 - A popular password hashing function that is memory-hard.\n- scrypt - A key derivation function that requires substantial memory to compute.",
+          "## Additional Information",
+          "- dMHFs are particularly effective against ASIC-based attacks due to their memory requirements.\n- When choosing a hashing algorithm, consider the trade-offs between speed, security, and memory usage.",
+          "## References",
+          "- [Memory-hard function](https://en.wikipedia.org/wiki/Memory-hard_function)\n- [](https://infosys.cs.uni-saarland.de/publications/p249-richter.pdf)\n- [A seven-dimensional analysis of hashing methods and its implications on query processing](https://dl.acm.org/doi/10.14778/2850583.2850585)\n- [Bandwidth-Hard Functions: Reductions and Lower Bounds](https://dl.acm.org/doi/10.1145/3243734.3243773)\n- [Hash Function](http://mlwiki.org/index.php/Hash_Function)\n- [Performance of the most common non‐cryptographic hash functions](https://onlinelibrary.wiley.com/doi/10.1002/spe.2179)\n- [Computationally Data-Independent Memory Hard Functions](https://arxiv.org/pdf/1911.06790.pdf)\n- [Fast hashing, it's not that simple](https://kerkour.com/fast-hashing-algorithms)\n- [](https://eprint.iacr.org/2016/115.pdf)\n- [](https://eprint.iacr.org/2018/944.pdf)"
+        ]
+      },
+      {
+        "pageTitle": "Data-independent memory-hard functions (iMHF)",
+        "metaDescription": "Data-independent memory-hard functions are cryptographic functions designed to resist attacks that utilize parallel processing and are not significantly influenced by the input data.",
+        "slug": "/data-independent-memory-hard-functions-imhf/",
+        "pageHeading": "Data-independent memory-hard functions (iMHF)",
+        "pageDescription": "Data-independent memory-hard functions are cryptographic functions designed to resist attacks that utilize parallel processing and are not significantly influenced by the input data.",
+        "pageContentBlocks": [
+          "## Description",
+          "Data-independent memory-hard functions (iMHF) are a class of cryptographic functions that require a substantial amount of memory to compute, regardless of the input data. This property makes them resistant to attacks using specialized hardware, such as ASICs or FPGAs, which can perform computations in parallel. iMHFs are particularly useful in scenarios where security against brute-force attacks is critical, as they force attackers to invest in memory rather than just computational speed. Unlike traditional hashing algorithms that can be optimized for specific inputs, iMHFs maintain consistent memory requirements across different inputs, thus leveling the playing field between attackers and defenders. They are often used in password hashing and key derivation where resilience against hardware attacks is necessary. By requiring significant memory, iMHFs slow down the process of generating hashes for large datasets, making them more secure in applications like cryptocurrency mining, secure password storage, and other areas where security is paramount.",
+          "## Examples",
+          "- Argon2: A memory-hard function designed for password hashing, winner of the Password Hashing Competition.\n- Scrypt: A password-based key derivation function that uses a large amount of memory to resist hardware attacks.",
+          "## Additional Information",
+          "- iMHFs are particularly effective in preventing attacks from botnets and cloud-based attackers due to their memory requirements.\n- Choosing an appropriate iMHF can depend on the specific use case, such as the balance between security and performance in a given application.",
+          "## References",
+          "- [Memory-hard function](https://en.wikipedia.org/wiki/Memory-hard_function)\n- [Computationally Data-Independent Memory Hard Functions](https://arxiv.org/pdf/1911.06790.pdf)\n- [](https://eprint.iacr.org/2016/115.pdf)\n- [](https://eprint.iacr.org/2018/944.pdf)\n- [What are Hash Functions and How to choose a good Hash Function?](https://www.geeksforgeeks.org/what-are-hash-functions-and-how-to-choose-a-good-hash-function/)\n- [2017-10-11 CERIAS - Memory Hard Functions and Password Hashing](https://www.youtube.com/watch?v=8QxFsWszbyI)\n- [Lecture 21: Hash functions](https://www.cs.cornell.edu/courses/cs3110/2008fa/lectures/lec21.html)\n- [Lecture 21: Hash functions](https://www.cs.cornell.edu/courses/cs312/2008sp/lectures/lec21.html)\n- [More Hash Function Tests ·  Aras' website](https://aras-p.info/blog/2016/08/09/More-Hash-Function-Tests/)\n- [](https://infosys.cs.uni-saarland.de/publications/p249-richter.pdf)"
+        ]
+      }
+    ]
+  }
+]
